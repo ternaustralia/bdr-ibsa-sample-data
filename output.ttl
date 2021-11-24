@@ -1,0 +1,337 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix loc: <https://w3id.org/tern/ontologies/loc/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix tern: <https://w3id.org/tern/ontologies/tern/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144230/taxon-name> a tern:Observation ;
+    rdfs:label "T144230 taxon name",
+        "Taxon name observation for fauna T144230" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144230> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/514ef49e-cb5b-57a1-8182-69611c17b05f> ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/taxon/Paradraculoides-sp.-SCH034> ;
+    sosa:observedProperty <http://linked.data.gov.au/def/tern-cv/70646576-6dc7-4bc5-a9d8-c4c366850df0> ;
+    sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/86513114-9538-5e34-9fce-ca8508926898> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144231/taxon-name> a tern:Observation ;
+    rdfs:label "T144231 taxon name",
+        "Taxon name observation for fauna T144231" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144231> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/71a0e83f-afa0-56f0-b5f4-42997c775d72> ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/taxon/Paradraculoides-sp.-SCH034> ;
+    sosa:observedProperty <http://linked.data.gov.au/def/tern-cv/70646576-6dc7-4bc5-a9d8-c4c366850df0> ;
+    sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/0c0fe259-1c27-53dc-aaf2-a621ffabca2f> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144232/taxon-name> a tern:Observation ;
+    rdfs:label "T144232 taxon name",
+        "Taxon name observation for fauna T144232" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144232> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/0ccb2131-aada-574a-8a79-47107a29ec39> ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/taxon/Paradraculoides-sp.-SCH034> ;
+    sosa:observedProperty <http://linked.data.gov.au/def/tern-cv/70646576-6dc7-4bc5-a9d8-c4c366850df0> ;
+    sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/83af4b76-88d1-5913-90a0-9d44af1b2e60> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144233/taxon-name> a tern:Observation ;
+    rdfs:label "T144233 taxon name",
+        "Taxon name observation for fauna T144233" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144233> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/137a0492-6096-5254-8e0d-574c349ac193> ;
+    sosa:hasSimpleResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/taxon/Paradraculoides-anachoretus> ;
+    sosa:observedProperty <http://linked.data.gov.au/def/tern-cv/70646576-6dc7-4bc5-a9d8-c4c366850df0> ;
+    sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/7eb5c462-4222-5474-9479-ab5ccd585664> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/0c0fe259-1c27-53dc-aaf2-a621ffabca2f> a tern:Instant ;
+    rdfs:label "Phenomenon time" ;
+    time:inXSDDate "2017-01-01"^^xsd:date .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/0ccb2131-aada-574a-8a79-47107a29ec39> a tern:Taxon ;
+    rdfs:label "Taxon result for fauna T144232" ;
+    dwc:family "Hubbardiidae" ;
+    dwc:order "Schizomida" ;
+    dwc:scientificName "Paradraculoides sp. 'SCH034'" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/137a0492-6096-5254-8e0d-574c349ac193> a tern:Taxon ;
+    rdfs:label "Taxon result for fauna T144233" ;
+    dwc:family "Hubbardiidae" ;
+    dwc:order "Schizomida" ;
+    dwc:scientificName "Paradraculoides anachoretus" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/263151d7-352e-51d4-8fd9-0fb11a7ad311> a tern:Text ;
+    rdfs:label "Fauna type value" ;
+    rdf:value "Troglofauna" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/26c92671-f07e-5b68-b84c-1679deb11144> a loc:Point ;
+    rdfs:label "Site RC16MEA0004 point" ;
+    geo:asWKT "POINT(115.896674 -21.657909)"^^geo:wktLiteral ;
+    wgs:lat -2.165791e+01 ;
+    wgs:long 1.158967e+02 .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/319864cd-0342-5366-8b4b-bedad82fc7b0> a tern:Text ;
+    rdfs:label "Fauna type value" ;
+    rdf:value "Troglofauna" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/33f7c0c9-1ea1-5f7e-ad0f-28ee343a7fdb> a loc:Polygon ;
+    rdfs:label "IBSA-2018-0064 polygon" ;
+    geo:asWKT "MultiPolygon (((387430.70000000001164153 7605294.58999999985098839, 387430.70000000001164153 7601068.2099999999627471, 382700.90000000002328306 7601068.2099999999627471, 382700.90000000002328306 7605294.58999999985098839, 387430.70000000001164153 7605294.58999999985098839)),((424171.11999999999534339 7598184.66000000014901161, 424171.11999999999534339 7597499.78000000026077032, 423138.52000000001862645 7597499.78000000026077032, 423138.52000000001862645 7598184.66000000014901161, 424171.11999999999534339 7598184.66000000014901161)))"^^geo:wktLiteral .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/514ef49e-cb5b-57a1-8182-69611c17b05f> a tern:Taxon ;
+    rdfs:label "Taxon result for fauna T144230" ;
+    dwc:family "Hubbardiidae" ;
+    dwc:order "Schizomida" ;
+    dwc:scientificName "Paradraculoides sp. 'SCH034'" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/5f7506bc-3474-5e62-9635-9ba11d82ddf0> a loc:Point ;
+    rdfs:label "Sampling point for fauna T144233" ;
+    geo:asWKT "POINT(115.896674 -21.657909)"^^geo:wktLiteral ;
+    wgs:lat -2.165791e+01 ;
+    wgs:long 1.158967e+02 .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/71a0e83f-afa0-56f0-b5f4-42997c775d72> a tern:Taxon ;
+    rdfs:label "Taxon result for fauna T144231" ;
+    dwc:family "Hubbardiidae" ;
+    dwc:order "Schizomida" ;
+    dwc:scientificName "Paradraculoides sp. 'SCH034'" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/7cf1f596-3451-5fce-abe4-8f70bfe36080> a tern:Attribute ;
+    rdfs:label "Fauna type attribute" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    tern:attribute "fauna type" ;
+    tern:hasSimpleValue "Troglofauna" ;
+    tern:hasValue <https://linked.data.gov.au/dataset/IBSA-2018-0064/319864cd-0342-5366-8b4b-bedad82fc7b0> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/7eb5c462-4222-5474-9479-ab5ccd585664> a tern:Instant ;
+    rdfs:label "Phenomenon time" ;
+    time:inXSDDate "2017-01-01"^^xsd:date .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/817c042e-2be8-5bee-8088-20e3c0014722> a tern:Attribute ;
+    rdfs:label "Fauna type attribute" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    tern:attribute "fauna type" ;
+    tern:hasSimpleValue "Troglofauna" ;
+    tern:hasValue <https://linked.data.gov.au/dataset/IBSA-2018-0064/c7f2a8ff-adc1-51d6-8208-05bbaed18a97> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/8298259d-d7ae-56fe-a273-9d5626d4bb94> a loc:Point ;
+    rdfs:label "Sampling point for fauna T144232" ;
+    geo:asWKT "POINT(115.896674 -21.657909)"^^geo:wktLiteral ;
+    wgs:lat -2.165791e+01 ;
+    wgs:long 1.158967e+02 .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/83af4b76-88d1-5913-90a0-9d44af1b2e60> a tern:Instant ;
+    rdfs:label "Phenomenon time" ;
+    time:inXSDDate "2017-01-01"^^xsd:date .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/86513114-9538-5e34-9fce-ca8508926898> a tern:Instant ;
+    rdfs:label "Phenomenon time" ;
+    time:inXSDDate "2017-01-01"^^xsd:date .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/8d557dab-bb7e-5fa8-ba2d-cdeb05e01e7f> a loc:Point ;
+    rdfs:label "Sampling point for fauna T144231" ;
+    geo:asWKT "POINT(115.896674 -21.657909)"^^geo:wktLiteral ;
+    wgs:lat -2.165791e+01 ;
+    wgs:long 1.158967e+02 .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/a9dfaa1f-42c5-5abb-8321-5776a2ea8336> a tern:Attribute ;
+    rdfs:label "Fauna type attribute" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    tern:attribute "fauna type" ;
+    tern:hasSimpleValue "Troglofauna" ;
+    tern:hasValue <https://linked.data.gov.au/dataset/IBSA-2018-0064/d03920ce-aa13-5efa-92d0-55b47e4a2581> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/c7f2a8ff-adc1-51d6-8208-05bbaed18a97> a tern:Text ;
+    rdfs:label "Fauna type value" ;
+    rdf:value "Troglofauna" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/d03920ce-aa13-5efa-92d0-55b47e4a2581> a tern:Text ;
+    rdfs:label "Fauna type value" ;
+    rdf:value "Troglofauna" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/e363608a-4535-5225-8f6b-69b77af16c99> a tern:Attribute ;
+    rdfs:label "Fauna type attribute" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    tern:attribute "fauna type" ;
+    tern:hasSimpleValue "Troglofauna" ;
+    tern:hasValue <https://linked.data.gov.au/dataset/IBSA-2018-0064/263151d7-352e-51d4-8fd9-0fb11a7ad311> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/f173b053-c055-5eaf-a6e6-abfe3718cbf3> a loc:Point ;
+    rdfs:label "Sampling point for fauna T144230" ;
+    geo:asWKT "POINT(115.896674 -21.657909)"^^geo:wktLiteral ;
+    wgs:lat -2.165791e+01 ;
+    wgs:long 1.158967e+02 .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/RC16MEA0004> a tern:Sampling ;
+    rdfs:label "Site establishment for RC16MEA0004" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/survey-area> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144230> a tern:Sampling ;
+    rdfs:label "Sampling for fauna T144230" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/f173b053-c055-5eaf-a6e6-abfe3718cbf3> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144230> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:samplingType "Trapping" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144231> a tern:Sampling ;
+    rdfs:label "Sampling for fauna T144231" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/8d557dab-bb7e-5fa8-ba2d-cdeb05e01e7f> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144231> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:samplingType "Trapping" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144232> a tern:Sampling ;
+    rdfs:label "Sampling for fauna T144232" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/8298259d-d7ae-56fe-a273-9d5626d4bb94> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144232> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:samplingType "Trapping" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144233> a tern:Sampling ;
+    rdfs:label "Sampling for fauna T144233" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/5f7506bc-3474-5e62-9635-9ba11d82ddf0> ;
+    rdfs:comment "Phase 2" ;
+    prov:wasAssociatedWith "Biota Environmental Sciences" ;
+    sosa:hasFeatureOfInterest <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144233> ;
+    sosa:resultTime "2017-01-01"^^xsd:date ;
+    sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:samplingType "Trapping" .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144230> a tern:MaterialSample ;
+    rdfs:label "T144230 sample ID" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    dwc:materialSampleID "T144230" ;
+    sosa:isResultOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144230> ;
+    sosa:isSampleOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    tern:featureType <http://linked.data.gov.au/def/tern-cv/cd5cbdbb-07d9-4a5b-9b11-5ab9d6015be6> ;
+    tern:hasAttribute <https://linked.data.gov.au/dataset/IBSA-2018-0064/a9dfaa1f-42c5-5abb-8321-5776a2ea8336> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144231> a tern:MaterialSample ;
+    rdfs:label "T144231 sample ID" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    dwc:materialSampleID "T144231" ;
+    sosa:isResultOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144231> ;
+    sosa:isSampleOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    tern:featureType <http://linked.data.gov.au/def/tern-cv/cd5cbdbb-07d9-4a5b-9b11-5ab9d6015be6> ;
+    tern:hasAttribute <https://linked.data.gov.au/dataset/IBSA-2018-0064/817c042e-2be8-5bee-8088-20e3c0014722> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144232> a tern:MaterialSample ;
+    rdfs:label "T144232 sample ID" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    dwc:materialSampleID "T144232" ;
+    sosa:isResultOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144232> ;
+    sosa:isSampleOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    tern:featureType <http://linked.data.gov.au/def/tern-cv/cd5cbdbb-07d9-4a5b-9b11-5ab9d6015be6> ;
+    tern:hasAttribute <https://linked.data.gov.au/dataset/IBSA-2018-0064/e363608a-4535-5225-8f6b-69b77af16c99> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144233> a tern:MaterialSample ;
+    rdfs:label "T144233 sample ID" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    dwc:materialSampleID "T144233" ;
+    sosa:isResultOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144233> ;
+    sosa:isSampleOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> ;
+    tern:featureType <http://linked.data.gov.au/def/tern-cv/cd5cbdbb-07d9-4a5b-9b11-5ab9d6015be6> ;
+    tern:hasAttribute <https://linked.data.gov.au/dataset/IBSA-2018-0064/7cf1f596-3451-5fce-abe4-8f70bfe36080> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/survey-area> a tern:FeatureOfInterest ;
+    rdfs:label "IBSA-2018-0064 survey area",
+        "Mesa A and K" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/33f7c0c9-1ea1-5f7e-ad0f-28ee343a7fdb> ;
+    tern:featureType <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> a tern:SiteVisit ;
+    rdfs:label "Site visit 2017-03-23 for RC16MEA0004" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    prov:startedAtTime "2017-01-01"^^xsd:date ;
+    tern:hasSite <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> a tern:Site ;
+    rdfs:label "Site RC16MEA0004" ;
+    dcterms:identifier "RC16MEA0004" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/26c92671-f07e-5b68-b84c-1679deb11144> ;
+    geo:sfWithin <http://linked.data.gov.au/dataset/asgs2016/stateorterritory/5> ;
+    sosa:isResultOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/RC16MEA0004> ;
+    sosa:isSampleOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/survey-area> ;
+    tern:featureType <http://linked.data.gov.au/def/tern-cv/8cadf069-01d7-4420-b454-cae37740c2a2> ;
+    tern:locationProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/1> a void:Dataset,
+        dcat:Distribution,
+        tern:Distribution,
+        tern:RDFDataset ;
+    rdfs:label "IBSA-2018-0064 RDF dataset version 1" ;
+    dcterms:created "2021-11-23"^^xsd:date ;
+    dcterms:creator [ a schema:Person ;
+            schema:email "e.chuc@uq.edu.au" ;
+            schema:name "Edmond Chuc" ;
+            schema:sameAs <https://w3id.org/tern/resources/b93c993f-22a9-4857-8df4-b6bfc1d3062c> ] ;
+    dcterms:description "IBSA-2018-0064. Targeted Subterranean Fauna Survey conducted for Robe River Mining Co. Ply. Ltd, for the Robe Valley converted to an RDF dataset by TERN." ;
+    dcterms:issued "2021-11-23"^^xsd:date ;
+    dcterms:publisher [ a schema:Organization ;
+            schema:alternateName "TERN" ;
+            schema:name "Terrestrial Ecosystem Research Network" ;
+            schema:sameAs <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
+            schema:url "https://www.tern.org.au/" ] ;
+    dcterms:source <https://biocollect.ala.org.au/ibsa/project/index/8043050a-f488-47f0-908f-ebc629b1f20c> ;
+    dcterms:title "IBSA-2018-0064 RDF dataset version 1" ;
+    void:vocabulary <https://linked.data.gov.au/def/IBSA-2018-0064> ;
+    dcat:accessURL <https://github.com/ternaustralia/bdr-ibsa-sample-data> .
+

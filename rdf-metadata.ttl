@@ -1,0 +1,31 @@
+@prefix tern: <https://w3id.org/tern/ontologies/tern/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/1> a tern:RDFDataset, tern:Distribution, void:Dataset, dcat:Distribution ;
+    rdfs:label "IBSA-2018-0064 RDF dataset version 1" ;
+    dcterms:title "IBSA-2018-0064 RDF dataset version 1" ;
+    dcterms:created "2021-11-23"^^xsd:date ;
+    dcterms:issued "2021-11-23"^^xsd:date ;
+    dcterms:description "IBSA-2018-0064. Targeted Subterranean Fauna Survey conducted for Robe River Mining Co. Ply. Ltd, for the Robe Valley converted to an RDF dataset by TERN." ;
+    dcterms:creator [
+        a schema:Person ;
+        schema:name "Edmond Chuc" ;
+        schema:email "e.chuc@uq.edu.au" ;
+        schema:sameAs <https://w3id.org/tern/resources/b93c993f-22a9-4857-8df4-b6bfc1d3062c> ;
+    ] ;
+    dcterms:publisher [
+        a schema:Organization ;
+        schema:name "Terrestrial Ecosystem Research Network" ;
+        schema:alternateName "TERN" ;
+        schema:url "https://www.tern.org.au/" ;
+        schema:sameAs <https://w3id.org/tern/resources/a083902d-d821-41be-b663-1d7cb33eea66> ;
+    ] ;
+    dcterms:source <https://biocollect.ala.org.au/ibsa/project/index/8043050a-f488-47f0-908f-ebc629b1f20c> ;
+    void:vocabulary <https://linked.data.gov.au/def/IBSA-2018-0064> ;
+    dcat:accessURL <https://github.com/ternaustralia/bdr-ibsa-sample-data> ;
+.
