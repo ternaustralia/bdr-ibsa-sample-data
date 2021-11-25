@@ -46,9 +46,8 @@ def get_uri_from_seed(seed):
 ufoi_uri = URIRef(BASE_URI["survey-area"])
 ufoi_wkt = "MultiPolygon (((387430.70000000001164153 7605294.58999999985098839, 387430.70000000001164153 7601068.2099999999627471, 382700.90000000002328306 7601068.2099999999627471, 382700.90000000002328306 7605294.58999999985098839, 387430.70000000001164153 7605294.58999999985098839)),((424171.11999999999534339 7598184.66000000014901161, 424171.11999999999534339 7597499.78000000026077032, 423138.52000000001862645 7597499.78000000026077032, 423138.52000000001862645 7598184.66000000014901161, 424171.11999999999534339 7598184.66000000014901161)))"
 g.add((ufoi_uri, RDF.type, TERN.FeatureOfInterest))
-g.add((ufoi_uri, RDFS.label, Literal("IBSA-2018-0064 survey area")))
+g.add((ufoi_uri, RDFS.label, Literal("IBSA-2018-0064 Mesa A and K survey area")))
 g.add((ufoi_uri, VOID.inDataset, rdf_dataset_uri))
-g.add((ufoi_uri, RDFS.label, Literal("Mesa A and K")))
 # ufoi_geo_bnode = BNode("ufoi_geo_bnode" + ufoi_uri)
 ufoi_geo_bnode = get_uri_from_seed("ufoi_geo_bnode" + ufoi_uri)
 g.add((ufoi_uri, GEO.hasGeometry, ufoi_geo_bnode))
@@ -92,6 +91,21 @@ for _, row in site_subset_df.iterrows():
     g.add((site_uri, SOSA.isResultOf, sampling_uri))
     g.add((site_uri, SOSA.isSampleOf, ufoi_uri))
     g.add((site_uri, TERN.locationProcedure, method_uri))
+    site_sample_type_attr_bnode = get_uri_from_seed(
+        "site_sample_type_attr_bnode" + site_uri
+    )
+    g.add((site_uri, TERN.hasAttribute, site_sample_type_attr_bnode))
+    g.add((site_sample_type_attr_bnode, RDF.type, TERN.Attribute))
+    g.add((site_sample_type_attr_bnode, RDFS.label, Literal("sample type attribute")))
+    g.add((site_sample_type_attr_bnode, VOID.inDataset, rdf_dataset_uri))
+    g.add((site_sample_type_attr_bnode, TERN.attribute, Literal("sample type")))
+    site_sample_type_value_bnode = get_uri_from_seed(
+        "site_sample_type_value_bnode" + site_uri
+    )
+    g.add((site_sample_type_attr_bnode, TERN.hasValue, site_sample_type_value_bnode))
+    g.add((site_sample_type_value_bnode, RDF.type, TERN.Text))
+    g.add((site_sample_type_value_bnode, RDFS.label, Literal("sample type value")))
+    g.add((site_sample_type_value_bnode, RDF.value, Literal(row["SampleType"])))
     g.add(
         (
             site_uri,

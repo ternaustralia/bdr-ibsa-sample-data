@@ -137,6 +137,12 @@
     rdfs:label "Phenomenon time" ;
     time:inXSDDate "2017-01-01"^^xsd:date .
 
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/8156ae31-a187-5a57-b8b8-1225f5cb9975> a tern:Attribute ;
+    rdfs:label "sample type attribute" ;
+    void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
+    tern:attribute "sample type" ;
+    tern:hasValue <https://linked.data.gov.au/dataset/IBSA-2018-0064/c13eda2e-c0a1-51e5-b4a5-a2a6b2d1f51e> .
+
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/817c042e-2be8-5bee-8088-20e3c0014722> a tern:Attribute ;
     rdfs:label "Fauna type attribute" ;
     void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
@@ -170,6 +176,10 @@
     tern:attribute "fauna type" ;
     tern:hasSimpleValue "Troglofauna" ;
     tern:hasValue <https://linked.data.gov.au/dataset/IBSA-2018-0064/d03920ce-aa13-5efa-92d0-55b47e4a2581> .
+
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/c13eda2e-c0a1-51e5-b4a5-a2a6b2d1f51e> a tern:Text ;
+    rdfs:label "sample type value" ;
+    rdf:value "Troglofauna" .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/c7f2a8ff-adc1-51d6-8208-05bbaed18a97> a tern:Text ;
     rdfs:label "Fauna type value" ;
@@ -290,8 +300,7 @@
     tern:hasAttribute <https://linked.data.gov.au/dataset/IBSA-2018-0064/7cf1f596-3451-5fce-abe4-8f70bfe36080> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/survey-area> a tern:FeatureOfInterest ;
-    rdfs:label "IBSA-2018-0064 survey area",
-        "Mesa A and K" ;
+    rdfs:label "IBSA-2018-0064 Mesa A and K survey area" ;
     void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
     geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/33f7c0c9-1ea1-5f7e-ad0f-28ee343a7fdb> ;
     tern:featureType <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> .
@@ -311,6 +320,7 @@
     sosa:isResultOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/RC16MEA0004> ;
     sosa:isSampleOf <https://linked.data.gov.au/dataset/IBSA-2018-0064/survey-area> ;
     tern:featureType <http://linked.data.gov.au/def/tern-cv/8cadf069-01d7-4420-b454-cae37740c2a2> ;
+    tern:hasAttribute <https://linked.data.gov.au/dataset/IBSA-2018-0064/8156ae31-a187-5a57-b8b8-1225f5cb9975> ;
     tern:locationProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> a void:Dataset,
