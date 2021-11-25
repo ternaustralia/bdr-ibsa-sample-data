@@ -27,7 +27,7 @@
     sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/86513114-9538-5e34-9fce-ca8508926898> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144231/taxon-name> a tern:Observation ;
     rdfs:label "T144231 taxon name",
@@ -42,7 +42,7 @@
     sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/0c0fe259-1c27-53dc-aaf2-a621ffabca2f> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144232/taxon-name> a tern:Observation ;
     rdfs:label "T144232 taxon name",
@@ -57,7 +57,7 @@
     sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/83af4b76-88d1-5913-90a0-9d44af1b2e60> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144233/taxon-name> a tern:Observation ;
     rdfs:label "T144233 taxon name",
@@ -72,7 +72,7 @@
     sosa:phenomenonTime <https://linked.data.gov.au/dataset/IBSA-2018-0064/7eb5c462-4222-5474-9479-ab5ccd585664> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> .
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/0c0fe259-1c27-53dc-aaf2-a621ffabca2f> a tern:Instant ;
     rdfs:label "Phenomenon time" ;
@@ -221,7 +221,7 @@
     sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144230> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> ;
     tern:samplingType "Trapping" .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144231> a tern:Sampling ;
@@ -234,7 +234,7 @@
     sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144231> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> ;
     tern:samplingType "Trapping" .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144232> a tern:Sampling ;
@@ -247,7 +247,7 @@
     sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144232> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> ;
     tern:samplingType "Trapping" .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/sampling/T144233> a tern:Sampling ;
@@ -260,7 +260,7 @@
     sosa:hasResult <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144233> ;
     sosa:resultTime "2017-01-01"^^xsd:date ;
     sosa:usedProcedure <https://ecodata.ala.org.au/uploads/2020-10/12_Survey_Report.pdf> ;
-    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> ;
+    tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> ;
     tern:samplingType "Trapping" .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/sample/T144230> a tern:MaterialSample ;
@@ -305,10 +305,11 @@
     geo:hasGeometry <https://linked.data.gov.au/dataset/IBSA-2018-0064/33f7c0c9-1ea1-5f7e-ad0f-28ee343a7fdb> ;
     tern:featureType <http://linked.data.gov.au/def/tern-cv/5bf7ae21-a454-440b-bdd7-f2fe982d8de4> .
 
-<https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-03-23> a tern:SiteVisit ;
-    rdfs:label "Site visit 2017-03-23 for RC16MEA0004" ;
+<https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> a tern:SiteVisit ;
+    rdfs:label "Site visit 2017-02-02 for RC16MEA0004" ;
     void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
-    prov:startedAtTime "2017-01-01"^^xsd:date ;
+    prov:endedAtTime "2017-03-23"^^xsd:date ;
+    prov:startedAtTime "2017-02-02"^^xsd:date ;
     tern:hasSite <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/site/RC16MEA0004> a tern:Site ;

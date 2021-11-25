@@ -146,16 +146,14 @@ for _, row in site_subset_df.iterrows():
         fauna_uri = BASE_URI[f"sample/{fauna_row['MuseumRef']}"]
 
         # Create the site visit
-        site_visit_uri = BASE_URI[
-            f"site-visit/{fauna_row['DateObs'].replace('/', '-')}"
-        ]
+        site_visit_uri = BASE_URI[f"site-visit/{row['StartDate'].replace('/', '-')}"]
         g.add((site_visit_uri, RDF.type, TERN.SiteVisit))
         g.add(
             (
                 site_visit_uri,
                 RDFS.label,
                 Literal(
-                    f"Site visit {fauna_row['DateObs'].replace('/', '-')} for {row['SiteName']}"
+                    f"Site visit {row['StartDate'].replace('/', '-')} for {row['SiteName']}"
                 ),
             )
         )
@@ -163,7 +161,14 @@ for _, row in site_subset_df.iterrows():
             (
                 site_visit_uri,
                 PROV.startedAtTime,
-                Literal(fauna_row["DateObs"], datatype=XSD.date),
+                Literal(row["StartDate"].replace("/", "-"), datatype=XSD.date),
+            )
+        )
+        g.add(
+            (
+                site_visit_uri,
+                PROV.endedAtTime,
+                Literal(row["EndDate"].replace("/", "-"), datatype=XSD.date),
             )
         )
         g.add((site_visit_uri, VOID.inDataset, rdf_dataset_uri))
