@@ -271,14 +271,7 @@ for _, row in site_subset_df.iterrows():
             (
                 taxon_observation_uri,
                 RDFS.label,
-                Literal(f"Taxon name observation for fauna {fauna_row['MuseumRef']}"),
-            )
-        )
-        g.add(
-            (
-                taxon_observation_uri,
-                RDFS.label,
-                Literal(f"{fauna_row['MuseumRef']} taxon name"),
+                Literal(f"{fauna_row['MuseumRef']} taxon name observation"),
             )
         )
         g.add((taxon_observation_uri, SOSA.usedProcedure, method_uri))

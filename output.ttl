@@ -15,8 +15,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144230/taxon-name> a tern:Observation ;
-    rdfs:label "T144230 taxon name",
-        "Taxon name observation for fauna T144230" ;
+    rdfs:label "T144230 taxon name observation" ;
     void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
     rdfs:comment "Phase 2" ;
     prov:wasAssociatedWith "Biota Environmental Sciences" ;
@@ -30,8 +29,7 @@
     tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144231/taxon-name> a tern:Observation ;
-    rdfs:label "T144231 taxon name",
-        "Taxon name observation for fauna T144231" ;
+    rdfs:label "T144231 taxon name observation" ;
     void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
     rdfs:comment "Phase 2" ;
     prov:wasAssociatedWith "Biota Environmental Sciences" ;
@@ -45,8 +43,7 @@
     tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144232/taxon-name> a tern:Observation ;
-    rdfs:label "T144232 taxon name",
-        "Taxon name observation for fauna T144232" ;
+    rdfs:label "T144232 taxon name observation" ;
     void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
     rdfs:comment "Phase 2" ;
     prov:wasAssociatedWith "Biota Environmental Sciences" ;
@@ -60,8 +57,7 @@
     tern:hasSiteVisit <https://linked.data.gov.au/dataset/IBSA-2018-0064/site-visit/2017-02-02> .
 
 <https://linked.data.gov.au/dataset/IBSA-2018-0064/observation/T144233/taxon-name> a tern:Observation ;
-    rdfs:label "T144233 taxon name",
-        "Taxon name observation for fauna T144233" ;
+    rdfs:label "T144233 taxon name observation" ;
     void:inDataset <https://linked.data.gov.au/dataset/IBSA-2018-0064/1> ;
     rdfs:comment "Phase 2" ;
     prov:wasAssociatedWith "Biota Environmental Sciences" ;
