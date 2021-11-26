@@ -31,9 +31,11 @@ During the 2021-11-25 BDR workshop, the RDF data was visualised using [metaphact
 
 The worked example was created based on the following assumptions:
 
-- Mesa A and K are the (ultimate) features of interest, and they are treated as a single top-level feature of interest in this worked example.
-- Mesa A and K contain sites where acts of sampling are conducted during site visits.
-- Material samples were collected from these acts of sampling where they become the feature of interest of observations for the "taxon name". The taxon name values are mapped to the `dwc:scientificName` property of an instance of `tern:Taxon` but data quality checks suggest not all values meet the definition of a "scientific name". For example, in cases where the taxon name values contains "SCH034", it should be modelled as a "field name" observation instead of a "taxon name" observation. The value type of a "field name" will use the `tern:Text` class instead of the `tern:Taxon` class.
+- Mesa A and K are the (ultimate) `features-of-interest` of the investigation. They are treated as a single top-level `feature-of-interest` in this worked example.
+- Mesa A and K contain sites where acts of `sampling` are conducted during site visits.
+- `Material samples` were collected as a `result` of these acts of `sampling`. 
+- The `samples` are the (proximate) `features-of-interest` of subsequent acts of `observation`. Each observed or measured value is the `result` of a separate `observation`. The `observed-property` of the most important `observation` is "taxon name" (this is the label of an entry from a controlled vocabulary). The `result` of this `observation` is an individual taxon name value. 
+- Taxon name values are mapped to the `dwc:scientificName` property of an instance of `tern:Taxon` but data quality checks suggest not all values meet the definition of a "scientific name". For example, in cases where the taxon name values contains "SCH034", it should be modelled as a "field name" observation instead of a "taxon name" observation. The value type of a "field name" will use the `tern:Text` class instead of the `tern:Taxon` class.
 - Some additional information were taken from the Survey Report PDF.
 - Not all attributes were mapped and transformed, just some, as a demonstration.
 - Although an occurrence must exist to obtain a material sample, the data does not record occurrences explicitly. Therefore, the material samples, instead of being sub-samples of an occurrence (sample), they are instead a sub-sample of the site.
