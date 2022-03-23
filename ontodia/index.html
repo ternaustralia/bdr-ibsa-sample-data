@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/ontodia@0.12.2/dist/ontodia-full.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.2/react.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/15.6.2/react-dom.js"
+    ></script>
+
+    <style type="text/css">
+      html,
+      body,
+      #container {
+        height: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <script type="text/javascript">
+      //<![CDATA[
+      window.onload = function () {
+        function onWorkspaceMounted(workspace) {
+          if (!workspace) {
+            return;
+          }
+          workspace.getModel().importLayout({
+            dataProvider: new Ontodia.SparqlDataProvider(
+              {
+                endpointUrl:
+                  "https://graphdb.tern.org.au/repositories/bdr-ibsa-sample-data",
+                imagePropertyUris: ["http://xmlns.com/foaf/0.1/img"],
+                queryMethod: Ontodia.SparqlQueryMethod.GET,
+              },
+              Ontodia.OWLStatsSettings
+            ),
+          });
+        }
+
+        ReactDOM.render(
+          React.createElement(Ontodia.Workspace, { ref: onWorkspaceMounted }),
+          document.getElementById("container")
+        );
+      };
+      //]]>
+    </script>
+  </head>
+
+  <body>
+    <div id="container"></div>
+  </body>
+</html>
