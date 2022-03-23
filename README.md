@@ -16,12 +16,9 @@ A copy of [output.ttl](output.ttl) is available online via SPARQL at https://gra
 
 ## Visualising the RDF data using Ontodia
 
-During the 2021-11-25 BDR workshop, the RDF data was visualised using [metaphacts/ontodia](https://github.com/metaphacts/ontodia). Steps to running this locally.
+During the 2021-11-25 BDR workshop, the RDF data was visualised using [metaphacts/ontodia](https://github.com/metaphacts/ontodia). 
 
-- Clone the repository [metaphacts/ontodia](https://github.com/metaphacts/ontodia)
-- Run `npm install` (requires Node.js and NPM installed on your system, see [nodejs.org](https://nodejs.org/en/))
-- Point the `SPARQL_ENDPOINT` at https://github.com/metaphacts/ontodia/blob/master/webpack.demo.config.js#L5 to https://graphdb.tern.org.au/repositories/bdr-ibsa-sample-data
-- Run application on localhost using `npm run demo`. Now go to http://localhost:10444/sparql.html and explore the data.
+View the data in Ontodia at https://ternaustralia.github.io/bdr-ibsa-sample-data.
 
 ## Worked example presentation slides
 
